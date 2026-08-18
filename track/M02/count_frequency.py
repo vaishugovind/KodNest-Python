@@ -1,9 +1,8 @@
 #write a function to count occurance of "a" in given string 
-def count_frequency():
-    string_name="Vaishnavi"
+def count_frequency(str, target):
     count_frequency=0
-    for i in string_name:
-        if i=="a":
+    for i in str:
+        if i==target:
             count_frequency=count_frequency+1
-    print("Count_frequency of a:",count_frequency)
-count_frequency()
+    print("Count_frequency of",target,"is:",count_frequency)
+count_frequency("india", "i")

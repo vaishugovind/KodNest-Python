@@ -5,7 +5,7 @@ class Parent():
 
 class Child(Parent):
    def __init__(self, name, course):
-      self.__init__(name)     
+      super().__init__(name)     
       self.course = course
       print("inside the child constructor")
 
